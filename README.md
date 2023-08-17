@@ -7,7 +7,7 @@ JSON-RPC 2.0 server and client, implementation of [JSON-RPC 2.0](http://www.json
 - JSON-RPC 2.0 only
 - Support batch requests and notifications
 - Simple to use for Laravel
-- Require PHP >= 5.6 and GuzzleHttp >= 6.0
+- Require PHP >= 8.0 and GuzzleHttp >= 7.2
 - License: MIT
 
 # JSON-RPC specification
@@ -19,7 +19,7 @@ JSON-RPC 2.0 server and client, implementation of [JSON-RPC 2.0](http://www.json
 composer require wwtg99/jsonrpc
 ```
 
-For Lumen or earlier Laravel than v5.5, you need to register the service provider and alias manually,
+For Lumen or earlier Laravel than v9.0, you need to register the service provider and alias manually,
 ```php
 Wwtg99\JsonRpc\Provider\JsonRpcServiceProvider::class
 ```
