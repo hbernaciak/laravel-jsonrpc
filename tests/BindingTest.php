@@ -6,8 +6,7 @@
  * Time: 13:50
  */
 
-namespace Test;
-
+namespace Tests;
 
 class BindingTest
 {
